@@ -5,9 +5,19 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
+    height: 300vh;
+}
+img {
+    width: 100%;
+}
+.bottom-0 {
+    bottom: 0;
 }
 .bg-red {
     background-color: red;
+}
+.grey {
+    color: rgb(170, 170, 170);
 }
 svg {
     width: 150px;
@@ -30,4 +40,13 @@ input {
     width: 80px;
     outline: none;
     border: none;
+}
+.travel-link {
+    color: #000;
+    background-color: rgb(144, 158, 124);
+    font-size: 12px;
+}
+.travel-link:hover {
+    background-color: #000;
+    color: rgb(144, 158, 124);
 }
