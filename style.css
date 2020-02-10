@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.bg-red {
+    background-color: red;
+}
+svg {
+    width: 150px;
+}
+.container {
+    min-width: 100%!important;
+}
+@media screen and (min-width: 992px) {
+    .header-height {
+        min-height: 120px;
+    }
+    svg {
+        width: 500px;
+    }
+    .container {
+        min-width: 95%!important;
+    }
+}
+input {
+    width: 80px;
+    outline: none;
+    border: none;
+}
