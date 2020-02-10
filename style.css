@@ -19,11 +19,19 @@ img {
 .grey {
     color: rgb(170, 170, 170);
 }
+.bg-grey {
+    background-color: rgb(230, 227, 227);
+}
 svg {
     width: 150px;
 }
 .container {
     min-width: 100%!important;
+}
+@media screen and (min-width: 767px) {
+    .f {
+        position: sticky;
+    }
 }
 @media screen and (min-width: 992px) {
     .header-height {
@@ -34,6 +42,9 @@ svg {
     }
     .container {
         min-width: 95%!important;
+    }
+    .m {
+        position: sticky;
     }
 }
 input {
@@ -49,4 +60,10 @@ input {
 .travel-link:hover {
     background-color: #000;
     color: rgb(144, 158, 124);
+}
+.opinion-author {
+    font-size: 13px;
+}
+.newsweek {
+    width: 32px;
 }
