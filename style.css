@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.grey {
+  color: rgb(170, 170, 170);
+}
+
+.text-black {
+  color: #000;
+}
+
+.bg-grey {
+  background-color: rgb(230, 227, 227);
+}
+
+svg {
+  width: 150px;
+}
+
+.container {
+  min-width: 100% !important;
+}
+
+@media screen and (max-width: 767px) {
+  .fix-width-in-sm {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .newsletter-content {
+    flex-direction: column;
+  }
+
+  .newsletter-image {
+    height: 150px;
+  }
+
+  .newsletter-text {
+    text-align: center;
+  }
+
+  .subscribe {
+    flex-direction: column;
+    height: 500px !important;
+  }
+
+  .book-content {
+    position: relative;
+  }
+
+  .book2 {
+    top: 20px !important;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .f {
+    position: sticky;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .header-height {
+    min-height: 120px;
+  }
+
+  svg {
+    width: 500px;
+  }
+
+  .container {
+    min-width: 95% !important;
+  }
+
+  .m {
+    position: sticky;
+  }
+}
+
+input {
+  width: 80px;
+  outline: none;
+  border: none;
+}
+
+.travel-link {
+  color: #000;
+  background-color: rgb(144, 158, 124);
+  font-size: 12px;
+}
+
+.travel-link:hover {
+  background-color: #000;
+  color: rgb(144, 158, 124);
+}
+
+.opinion-author {
+  font-size: 13px;
+}
+
+.newsweek {
+  width: 32px;
+}
+
+.book-link:hover {
+  background-color: rgb(189, 189, 189);
+}
+
+.special {
+  background-image: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png);
+  background-size: cover;
+  height: 52px;
+  width: 70px;
+}
+
+.book {
+  width: 170px;
+}
+
+.book2 {
+  left: 60px;
+  top: 70px;
+}
+
+.subscribe {
+  height: 300px;
+  background-color: rgb(240, 240, 240);
+}
+
+.newsletter-content {
+  height: 90%;
+}
+
+.newsletter-image {
+  background-image: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.footer-left svg {
+  fill: red;
+  width: 250px;
+}
+
+footer ul {
+  list-style: none;
+}
