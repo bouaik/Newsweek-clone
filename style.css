@@ -5,7 +5,6 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    height: 1000vh;
 }
 img {
     width: 100%;
@@ -124,4 +123,11 @@ input {
     background-size: cover;
     background-position: center;
     width: 100%;
+}
+.footer-left svg {
+    fill: red;
+    width: 250px;
+}
+footer ul {
+    list-style: none;
 }
