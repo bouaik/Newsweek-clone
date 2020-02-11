@@ -17,7 +17,7 @@ The objectifs of this projet were :
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/bouaik/Newsweek-clone/dda598c80f9f164cc93881598bafec2698fb25ba/index.html)
+[Live Demo Link](https://rawcdn.githack.com/bouaik/Newsweek-clone/abbc4bbbff0f8e82a55647ee27e877ae8f6749b7/index.html)
 
 ## Authors
 
